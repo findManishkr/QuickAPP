@@ -3,9 +3,13 @@
 
 ### deliverables of the website
 
-* user can read the blog post and comment on the blog
+*  user can read the blog post and comment on the blog
+
 *  we will build admin dashboard also where , admin can publish a new blog 
-or manage a existing 
+   or manage a existing blog and comment.
+
+*  we will also integrate ai features in this project to generate the blog content.
+
 
 
 
