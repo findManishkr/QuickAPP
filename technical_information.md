@@ -7,6 +7,8 @@
 ```
  npm create vite@latest  
 
+ // above command creates a new fronted project with `vite` as the project tool.
+
 ```
 
 above command creates a new fronted project with `vite` as the project tool.
