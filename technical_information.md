@@ -34,3 +34,37 @@ the command `vite` ".
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+* to hide scroll bar , use the below command
+
+```
+::-webkit-scrollbar {
+    display: none
+}
+
+```
+
+
+
+
+
+
+
+
+### time to add tailwind css in the 
+
+* to install tailwind , use command
+
+`npm install tailwindcss @tailwindcss/vite`:-> this intalls various requirements of tailwind in react app
+

@@ -1,0 +1,19 @@
+
+/*   import `outfit ` font  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+ /* to use tailwind css */
+@import "tailwindcss";
+
+
+
+/*   use `outfit` as global font */
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+/* hid scroll bar for webkit browsers */
+::-webkit-scrollbar{
+  display: none;
+}
