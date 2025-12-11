@@ -17,3 +17,16 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+/* add color theme to whole web application */
+
+
+@theme{
+
+  --color-primary: #5044e5;
+}
+
+
+#root{
+  background-color: aquamarine;
+}

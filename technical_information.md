@@ -51,17 +51,6 @@ the command `vite` ".
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 * to hide scroll bar , use the below command
 
 ```
@@ -97,4 +86,14 @@ for that we need to add `react-router-dom pacage`
 ```
  npm install react-router-dom                     // [in client folder]
 
+
+```
+
+- after this we have to set up `route`
+
+->### open main.jsx file
+
+* import `BrowserRouter` from `react-router-dom` package
+```
+import {BrowserRouter} from `react-router-dom`
 ```
