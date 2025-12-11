@@ -151,6 +151,40 @@ import {BrowserRouter} from `react-router-dom`
 
  // above program defines->
    *  a basic react component named Home that currently renders an empty <div> to the page
-   
+
+
+```
+
+
+
+### how to create routes
+
+* -> `ex`:-> `http://localhost:5173/blog`, `http://localhost:5173/home`
+
+
+```
+
+import React from 'react'
+import {Route, Routes } from 'react-router-dom'
+import Blog from './pages/Blog'
+import Home from './pages/Home'
+
+const App = () =>{
+    return (
+      <div>
+       <Routes>
+        <Route  path = '/'  element = { <Home/>} />
+        <Route  path = '/blog' element = {<Blog/>}/>
+       </Routes>
+      </div>
+    )
+}
+
+export default App;
+
+`this simply sets different routes`
+
+
+
 
 ```
