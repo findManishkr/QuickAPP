@@ -96,4 +96,61 @@ for that we need to add `react-router-dom pacage`
 * import `BrowserRouter` from `react-router-dom` package
 ```
 import {BrowserRouter} from `react-router-dom`
+
+```
+
+### now its time for figma design of our blog app
+
+- here we will design different pages of the website
+
+-- before that will create folder structre for compontent and pages
+
+```
+ client/
+|-src/
+     |-> creat `component ` folder
+
+
+
+     |-> create `pages ` folder
+                   * open pages folder
+                |-> create `Home.jsx` file
+                    * add   <h1>Home </h1>
+
+                |-> creat `Blog.jsx` file
+                    * add < h1> Blog</h1>    
+     
+
+
+```
+
+
+
+
+
+
+### underdstanding the meaning of basic react program
+
+```
+
+ import react from 'react'
+
+ const Home = () => {
+       
+       return (
+          <div> 
+          
+          </div>
+
+
+       )
+
+
+ } 
+
+
+ // above program defines->
+   *  a basic react component named Home that currently renders an empty <div> to the page
+   
+
 ```
