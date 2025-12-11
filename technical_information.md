@@ -84,3 +84,17 @@ the command `vite` ".
 
 `npm install tailwindcss @tailwindcss/vite`:-> this intalls various requirements of tailwind in react app
 
+
+
+
+### install one more package 
+
+* `in our web app we will create different pages,`
+*  `and we will navigate the user from one page to other page`
+
+for that we need to add `react-router-dom pacage`
+
+```
+ npm install react-router-dom                     // [in client folder]
+
+```
