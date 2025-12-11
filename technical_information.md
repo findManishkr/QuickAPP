@@ -33,6 +33,22 @@ the command `vite` ".
 
 
 
+### add color theme to whole web app
+
+```
+`index.css` -> 
+
+@theme{
+    --color-primary :#5044E5;
+}
+
+
+````
+
+
+
+
+
 
 
 
